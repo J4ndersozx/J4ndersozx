@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,7 +48,7 @@ body {
 
 #successMessage {
     display: none;
-    color: #ff5f5f;
+    color: #ff2323;
     font-weight: bold;
     margin-top: 20px;
     text-align: center;
