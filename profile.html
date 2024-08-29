@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Preencha seu perfil</h1>
+        <form id="profile-form">
+            <input type="text" id="full-name" placeholder="Seu Nome" required>
+            <input type="email" id="email" placeholder="E-Mail" required>
+            <input type="file" id="profile-pic" accept="image/*">
+            <button type="button" id="save-btn">Salvar</button>
+        </form>
+        <div id="profile-preview">
+            <h2>Perfil Atual</h2>
+            <p id="current-name"></p>
+            <p id="current-email"></p>
+            <img id="current-pic" src="" alt="Foto de Perfil" style="display: none;">
+        </div>
+    </div>
+    <script src="js/profile.js"></script>
+</body>
+</html>
